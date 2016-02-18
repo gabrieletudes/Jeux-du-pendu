@@ -1,0 +1,41 @@
+$largeur: 60em;//960px/16px
+$hauteur: 25em;//400px/16px
+$couleurfondbody: #34495e;
+$couleurfondform: #ecf0f1;
+$couleurtexte: #3498db;
+
+body {
+  background-color: $couleurfondbody;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+*{
+    margin: 0;
+}
+.container{
+  margin: 0 auto;
+  padding: 2em 0;
+  text-align: center;
+  line-height: 1.5;
+  width: $largeur;
+  /*height: $hauteur;*/
+  background-color: $couleurfondform;
+  border-radius: 0.3em;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  h1{
+    margin: 0;
+  }
+  form{
+    vertical-align: middle;
+    font-size: 1.5em;
+    color: $couleurtexte;
+    input[type=submit] {
+        background-color: rgb(11, 134, 161);
+        border: none;
+        height: 3em;
+    }
+  }
+  .interface{
+    text-align: left;
+    padding: 0 2em;
+  }
+}
