@@ -16,7 +16,7 @@
             </p>
         </div>
         <div class="images">
-            <img src="images/pendu<?php echo $trials; ?>.jpg" alt="<?php echo $trials."eme"; ?> image pour le jeux du pendu" />
+            <img src="./images/pendu<?php echo $trials; ?>.jpg" alt="<?php echo $trials."eme"; ?> image pour le jeux du pendu" />
         </div>
 
         <div class="container">
