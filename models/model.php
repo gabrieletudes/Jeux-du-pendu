@@ -42,10 +42,19 @@ function unserializeLetters($serializedLetters)
 
 function  getWordsArray(){//executer a chaque requette en post ou en get
 
-    return file(SOURCE_NAME);
+    return @file(SOURCE_NAME)?:false;
 
 }
 
 function getWordsIndex($wordsArray){
     return rand(0, count($wordsArray));//nombre des mots);
+}
+
+function getWord($wordsArray, $wordIndex)
+{
+    return strtolower(trim($wordsArray[$wordIndex]));
+}
+
+function getReplacementString($lettersCount){
+    return str_pad('', $lettersCount, REPLACEMENT_CHAR); // repmi une chaine avec une autre chaine
 }

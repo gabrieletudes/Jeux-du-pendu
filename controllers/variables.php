@@ -8,6 +8,8 @@ $serializedLetters = userializeLetters($lettersArray);
 
 $wordIndex = getWordIndex($wordsArray);
 
+$word = $wordsArray[$wordIndex];//un mot
+
 /*
 $pageName = 'Jeux'; /*titre de la page
 

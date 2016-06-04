@@ -18,5 +18,5 @@ if($_SERVER['REQUEST_METHOD'] === 'GET'){
 }
 }
 else {
-    $error = '<p>OOps, un probleme est survenu lors du chargement de larray</p>'
+    $error = '<p>OOps, un probleme est survenu lors du chargement de larray</p>';
 }
